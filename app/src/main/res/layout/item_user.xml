@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:text="Obama"
+        android:layout_weight="75"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvGender"
+        android:text="Male"
+        android:layout_weight="20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
